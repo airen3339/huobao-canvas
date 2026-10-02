@@ -387,7 +387,7 @@ const modelTypeDisplay = (type) => getLocalModelTypes()[String(type).split(',')[
           :class="{ active: activeSection === 'chatfire' }"
           @click="activeSection = 'chatfire'"
         >
-          <img src="/icons/huobao.png" class="nav-icon-img" alt="火宝 Huobao" />
+          <img src="/brand/firelumi-mark.png?v=20261002" class="nav-icon-img" alt="火宝 Huobao" />
           <span class="nav-label">火宝 Huobao</span>
           <span v-if="cfCurrentKey && catalogMode === 'gateway'" class="status-dot on" :title="$t('settings.chatfire.connected')"></span>
         </button>
@@ -434,7 +434,7 @@ const modelTypeDisplay = (type) => getLocalModelTypes()[String(type).split(',')[
       <!-- 火宝 Huobao -->
       <section v-if="activeSection === 'chatfire'" class="pane">
         <div class="pane-head">
-          <img src="/icons/huobao.png" class="pane-icon" alt="火宝 Huobao" />
+          <img src="/brand/firelumi-mark.png?v=20261002" class="pane-icon" alt="火宝 Huobao" />
           <h1>火宝 Huobao</h1>
           <n-tag v-if="cfCurrentKey" type="success">{{ $t('settings.chatfire.connected') }}</n-tag>
         </div>

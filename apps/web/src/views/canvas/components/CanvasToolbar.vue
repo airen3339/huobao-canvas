@@ -1,7 +1,7 @@
 <template>
   <div class="canvas-toolbar">
     <div class="toolbar-cluster">
-      <img src="/icons/huobao.png" class="brand-icon" alt="火宝画布" title="火宝画布" />
+      <img src="/brand/firelumi-mark.png?v=20261002" class="brand-icon" alt="火宝画布" title="火宝画布" />
       <div ref="switcherRef" class="project-switcher">
         <button
           type="button"
